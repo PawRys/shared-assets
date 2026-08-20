@@ -5,10 +5,10 @@ button,
 	justify-content: center;
 	gap: var(--spacing-sm);
 
-	padding: 0.625rem var(--spacing-md);
+	padding: var(--spacing-xs) var(--spacing-md);
 
 	border: 1px solid transparent;
-	border-radius: var(--radius-md);
+	border-radius: var(--radius-sm);
 
 	font-family: 'Roboto Flex', var(--font-family, sans-serif);
 	font-size: 0.875rem;
