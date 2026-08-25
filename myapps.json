@@ -1,6 +1,6 @@
 [
-	{ "name": "Stany", "link": "https://pawrys.github.io/StockBrowser5/" },
-	{ "name": "Etykiety", "link": "https://pawrys.github.io/LabelGenerator" },
-	{ "name": "Tester", "link": "https://pawrys.github.io/PurchaseComparator" }
+	{ "name": "Stany", "href": "https://pawrys.github.io/StockBrowser5/" },
+	{ "name": "Etykiety", "href": "https://pawrys.github.io/LabelGenerator" },
+	{ "name": "Tester", "href": "https://pawrys.github.io/PurchaseComparator" }
 ]
  
