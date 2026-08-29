@@ -54,6 +54,11 @@
 	--spacing-small: 0.1em;
 	--spacing-medium: 0.3em;
 	--spacing-large: 0.6em;
+
+	--button-font-color: #fff;
+	--button-border-color: #fff;
+	--button-background-color: #000;
+	--button-action-border-color: #fff;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -62,9 +67,9 @@
 		--action-color-normal: var(--action-400);
 		--action-color-strong: var(--action-600);
 
-		--border-color-subtle: var(--neutral-500);
-		--border-color-normal: var(--neutral-400);
-		--border-color-strong: var(--neutral-300);
+		--border-color-subtle: var(--neutral-600);
+		--border-color-normal: var(--neutral-500);
+		--border-color-strong: var(--neutral-400);
 
 		--font-color-link: var(--neutral-300);
 		--font-color-hover: var(--neutral-400);
@@ -72,7 +77,7 @@
 		--font-color-selected: var(--action-400);
 
 		--background-color-main: var(--neutral-900);
-		--background-color-formfield: var(--neutral-600);
+		--background-color-formfield: var(--neutral-700);
 		--background-color-interactive: var(--neutral-800);
 		--background-color-interactive-hover: var(--neutral-700);
 	}
