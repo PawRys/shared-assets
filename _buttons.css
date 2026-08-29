@@ -41,11 +41,13 @@ button,
 }
 
 /* Secondary */
+button,
 .btn-secondary {
 	color: var(--color-text);
 	background-color: var(--color-secondary, #e5e7eb);
 }
 
+button,
 .btn-secondary:hover:not(:disabled) {
 	background-color: var(--color-secondary-hover, #d1d5db);
 }

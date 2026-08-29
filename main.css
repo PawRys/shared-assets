@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght@-200..150,27..175,323..603,25..135,649..854,-305..-98,560..788,416..570,528..760,8..144,-10..0,25..151,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/normalize.css/normalize.css');
+
+@import url('./_reset.css');
+@import url('./_variables.css');
+@import url('./_typography.css');
+/* @import url('./_buttons.css'); */
+
+:root {
+	font-size: 112.5%; /* 18px */
+
+	--font-roboto: 'Roboto Flex', monospace;
+	--font-rajdhani: 'Rajdhani', monospace;
+	--font-karma: 'Karma', monospace;
+	--font-teko: 'Teko', monospace;
+}
+
+body {
+	padding-inline: 1ch;
+	max-width: 105ch;
+	margin-inline: auto;
+	font-size: 1rem;
+
+	font-family: var(--font-family-main);
+}
