@@ -7,22 +7,25 @@
 @import url('./_reset.css');
 @import url('./_variables.css');
 @import url('./_typography.css');
-/* @import url('./_buttons.css'); */
+@import url('./_buttons.css');
+@import url('./_forms.css');
 
 :root {
-	font-size: 112.5%; /* 18px */
-
-	--font-roboto: 'Roboto Flex', monospace;
-	--font-rajdhani: 'Rajdhani', monospace;
-	--font-karma: 'Karma', monospace;
-	--font-teko: 'Teko', monospace;
+	/*font-size: 112.5%; /*18px*/
+	font-size: 100%; /*18px*/
 }
 
 body {
 	padding-inline: 1ch;
 	max-width: 105ch;
 	margin-inline: auto;
-	font-size: 1rem;
 
+	background-color: var(--background-color-main);
 	font-family: var(--font-family-main);
+	font-size: 1rem;
+	color: var(--font-color-normal);
+}
+
+::selection {
+	background-color: var(--font-color-selected);
 }
